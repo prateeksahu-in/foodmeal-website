@@ -555,10 +555,6 @@ section.big-deal{
      margin-right: -2rem;
  }
 
- .latest-news .article-wrapper .card .card-content{
-    padding:2rem;
- }
-
 .latest-news .article-wrapper .card{
     margin-right: 2rem;
     background: var(--heaven);
@@ -568,3 +564,29 @@ section.big-deal{
 .latest-news .article-wrapper .card img{
     width: 100%;
 }
+
+
+.latest-news .article-wrapper .card .card-content {
+    padding: 2rem;
+}
+.latest-news .article-wrapper .card .card-content .post-meta{
+    margin-bottom: 1rem;
+ }
+
+ .latest-news .article-wrapper .card .card-content .post-meta .comment-count{
+     margin-left: 1rem;
+ }
+
+ .latest-news .article-wrapper .card .card-content h2{
+     font-family: "Raleway-bold";
+     font-size: 1.3rem;
+     margin-bottom: 1rem;
+ }
+
+ .latest-news .article-wrapper .card .card-content p{
+     line-height: 1.6rem;
+ }
+
+ .latest-news .btn-wrapper{
+     margin-top: 2rem;
+ }
