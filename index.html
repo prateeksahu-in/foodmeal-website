@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
     <header class="topbar">
         <div class="container flex justify-between item-center">
 
@@ -455,6 +458,12 @@
     <footer class="copyright">
         <div>Copyright © 2021. All rights reserved by <a href="#">Prateek Sahu</a></div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function () {
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+    </script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
