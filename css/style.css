@@ -659,7 +659,7 @@ section.contact-us .contact-info-wrapper{
 
 section.contact-us .map{
     flex:1;
-    filter: grayscale(100%);
+    filter: grayscale(20%);
 }
 
 section.contact-us .contact-info{
