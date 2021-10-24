@@ -7,6 +7,10 @@ $(document).ready(function(){
         nextArrow:".next-btn",
 
     });
+
+    $('.nav-trigger').click(function(){
+        $('.site-content-wrapper').toggleClass('scaled');
+    });
 });
 
 // var countDownDate = new Date("Dec 5, 2021 15:37:25").getTime();
